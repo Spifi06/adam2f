@@ -4,9 +4,93 @@
 		<head>
 			<meta charset="utf-8">
 			<title> Strona Formularza </title>
+	<style>
+#S1 {
+  text-align: Right; 
+}
+#R1 {
+  text-align: Right; 
+}
+#h1 { text-align: Center;
+}
+#h1 { border-style: solid; 
+}
+
+</style>
 		</head>
-		<body>
-		Tutaj bedzie formularz <br>
+		<body bgcolor="grey">
+		 <p> <font color="Black" size="3" face="Arial"> Adam Gitler 2F </font> </p>
+		 <h1 id="h1"> Wybór części i zastosowania komputera</h1> <br> 
+		<font size="5">
+		<form  action="mailto:mkryniew@poczta.wp.pl?">
+	<input type="number" min="0"> &nbsp; &nbsp; Podaj budżet	       <br>
+	 <p>  <font size="5">   Wybierz podzespoły  </font> <br> </p>
+
+ <p>
+Procesor:                         
+<SELECT NAME=>     
+  <OPTION VALUE=...>...                       
+<OPTION VALUE=RTX 3090>RTX 3090          
+<OPTION VALUE=RTX 3080>RTX 3080          
+<OPTION VALUE=RTX 3070>RTX 3070         
+<OPTION VALUE=RX 6900XT>RX 6900XT       
+<OPTION VALUE=RX 5500XT>RX 5500XT        
+</SELECT>                         
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+Karta graficzna:                        
+<SELECT NAME=>
+<OPTION VALUE=...>...      
+<OPTION VALUE=RTX 3090>RTX 3090
+<OPTION VALUE=RTX 3080>RTX 3080
+<OPTION VALUE=RTX 3070>RTX 3070
+<OPTION VALUE=RX 6900XT>RX 6900XT
+<OPTION VALUE=RX 5500XT>RX 5500XT
+</SELECT> 
+<p>	
+<p >
+Wybierz ilość ramu: 
+<SELECT NAME=>
+<OPTION VALUE=...>...      
+<OPTION VALUE=4GB>4GB
+<OPTION VALUE=8GB>8GB
+<OPTION VALUE=16GB>16GB
+<OPTION VALUE=32GB>32GB
+<OPTION VALUE=64GB>64GB
+<OPTION VALUE=128GB>128GB
+</SELECT> 
+<p>
+<p>
+Wybierz rozmiar dysku <br>
+ <INPUT TYPE="radio" NAME="plec" VALUE="250GB"> 250GB <br>
+<INPUT TYPE="radio" NAME="plec" VALUE="500GB"> 500GB <br>
+<INPUT TYPE="radio" NAME="plec" VALUE="1000GB"> 1000GB <br>
+<INPUT TYPE="radio" NAME="plec" VALUE="inny"> inny <br>
+ 
+</p>
+Wybierz zastosowanie komputera: <br>
+ <input type="checkbox" name="Zastosowanie" value="Gry"> Gry
+ <input type="checkbox" name="Zastosowanie" value="Profesjonalna praca"> Profesjonalna praca <br>
+ <input type="checkbox" name="Zastosowanie" value="Biurowy"> Biurowy
+ <input type="checkbox" name="Zastosowanie" value="Domowy"> Domowy <br>
+
+<br>
+Uwagi:<br>
+
+<TEXTAREA NAME=Inne  ROWS=10 COLS=105></TEXTAREA>
+	
+	<br><br>
+	<p id="R1">
+	<INPUT TYPE="reset" VALUE="Reset">
+	</p>
+	<p id="S1">
+	<INPUT TYPE="submit" VALUE="Gotowe">
+	</p>
+
+
+</form>
 		<a HREF="index.html">wróć</a>
+		</font>
 		</body>
+		
 	</html>
